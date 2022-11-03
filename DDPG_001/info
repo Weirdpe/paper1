@@ -1,0 +1,35 @@
+道路信息：
+分成四条车道，每条车道的纵坐标分别为：5,15,25,35
+道路长1500m 汽车的速度12m/s
+在指定的两个数之间生成固定数量的等间距数组 linspace()函数
+CPU clock frequency f_i [2,6]GHZ  每秒多少个时钟周期
+storage capacity c_i [0.5,2]GB
+maximum tolerant repsonse time of each task  [4,15]s
+任务需要的计算资源 cycles/bit 每比特需要时钟周期
+
+服务器队列
+定义一个数组 每次只允许一个任务计算 任务放在第一的位置
+队列中任务的总大小不能超过总容量
+
+任务优先级和时延共同组成权重
+关键任务必须按时完成，就地执行 最先执行
+高优先级任务、低优先级任务执行超时之后给予惩罚 (效用函数)
+
+
+状态：
+车辆、RSU、MBS的队列情况
+各车辆生成的任务情况
+
+
+
+
+V_y = [5, 15, 25, 35]
+v_y_random = [5, 15, 25, 35]
+speed_random = [3, 5, 7]
+compute_freq_random = [4, 7]
+compute_r_freq_random = [30, 50, 60]
+queue_size_random = [100, 200, 300]
+queue_r_size_random = [1000, 2000, 3000, 4000]
+
+
+以左下角为原点建立坐标系
